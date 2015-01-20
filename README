@@ -21,10 +21,7 @@ Crossover Probability  = 0.3
 Mutation Probability  = 0.5
 
 
-
-
-
-
 References:
 [1] A Comparative Study of Adaptive Crossover Operators for Genetic Algorithms to Resolve the Traveling Salesman Problem,ABDOUN Otman,ABOUCHABAKA Jaafar,International Journal of Computer Applications (0975 – 8887,Volume 31– No.11, October 2011
 
+NOTE: Take a data file which is located in the same directory and send it as an argument in program.
