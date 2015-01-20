@@ -1,0 +1,30 @@
+A code that finds an optimal solution of Traveling Salesman Problem
+
+Approach used : Nearest Neighbour Algorithm, Genetic Algorithm
+
+Description of approach used (max 200 words):
+
+Firstly, The Nearest Neighbour Algorithm  is applied to the problem. 
+The solution was further used as an intial solution of genetic algorithm. 
+So, this solution and its fitness was sent to the mating pool and fitness_array respectively. 
+Other elements of mating pool are created by mutation of nearest neighbour solution.
+During selection, the solution having the biggest fitness is selected aand added to mating pool each time.
+For getting better, PMX crossover was used.Mutation type is bitwise.
+Then the fitness of each chromosome in mating pool is calculated and the optimal is selected.
+
+All relevant parameters and their settings:
+
+Population Size = 10
+Maximum Iteration = 1
+Tournament Size  = 2
+Crossover Probability  = 0.3
+Mutation Probability  = 0.5
+
+
+
+
+
+
+References:
+[1] A Comparative Study of Adaptive Crossover Operators for Genetic Algorithms to Resolve the Traveling Salesman Problem,ABDOUN Otman,ABOUCHABAKA Jaafar,International Journal of Computer Applications (0975 – 8887,Volume 31– No.11, October 2011
+
